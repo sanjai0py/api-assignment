@@ -25,3 +25,8 @@ endpoints. Additionally, implement rate limiting on a specific secure endpoint t
 - [x] Create a secure API endpoint that requires authentication.
 - [x] Implement rate limiting on this endpoint to prevent abuse and enhance security.
 - [x] Choose a reasonable rate limit (e.g., X requests per minute) and clearly document the rate-limiting strategy.
+
+### Improvements:
+
+- [] Create swagger API documentation
+- [] Improve rate limiting
