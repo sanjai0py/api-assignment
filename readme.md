@@ -33,6 +33,7 @@ https://api-assignment-243c.onrender.com/
   - `username`
   - `email`
   - `password`
+  - `secretImg`
 - Response:
   - `200 OK` on success
   - `400 Bad Request` if username or email already exists
