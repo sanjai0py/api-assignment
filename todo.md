@@ -19,7 +19,9 @@ endpoints. Additionally, implement rate limiting on a specific secure endpoint t
 - [x] Verify user credentials against the stored information in the database.
 - [x] Generate and return a secure authentication token upon successful login.
 - [x] Use industry-standard practices for token generation and validation.
-- [] Secure API Endpoint with Rate Limiting:
-- [] Create a secure API endpoint that requires authentication.
-- [] Implement rate limiting on this endpoint to prevent abuse and enhance security.
-- [] Choose a reasonable rate limit (e.g., X requests per minute) and clearly document the rate-limiting strategy.
+
+### Secure API Endpoint with Rate Limiting:
+
+- [x] Create a secure API endpoint that requires authentication.
+- [x] Implement rate limiting on this endpoint to prevent abuse and enhance security.
+- [x] Choose a reasonable rate limit (e.g., X requests per minute) and clearly document the rate-limiting strategy.

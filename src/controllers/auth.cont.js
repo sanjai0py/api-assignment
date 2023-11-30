@@ -58,6 +58,3 @@ exports.login = asyncHandler(async (req, res, next) => {
     // Send the token as a response
     res.status(200).json({success: true, data: token});
 });
-
-
-//to create a Secure API Endpoint with Rate Limiting

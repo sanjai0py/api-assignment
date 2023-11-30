@@ -4,12 +4,10 @@ const {Sequelize} = require("sequelize");
 const User = (sequelize, DataTypes) => {
     return sequelize.define("User", {
             id: {
-                type: DataTypes.INTEGER,
-                allowNull: true,
+                type: DataTypes.UUID,
+                allowNull: false,
                 primaryKey: true,
-                unique: true,
-                autoIncrement: true,
-                // defaultValue: Sequelize.UUIDV4,
+                defaultValue: Sequelize.UUIDV4,
             },
             username: {
                 type: DataTypes.STRING,
@@ -24,6 +22,11 @@ const User = (sequelize, DataTypes) => {
             password: {
                 type: DataTypes.STRING,
                 allowNull: false,
+            },
+            secretImg: {
+                type: DataTypes.STRING,
+                allowNull: true,
+                defaultValue: "https://i.pinimg.com/736x/ba/92/7f/ba927ff34cd961ce2c184d47e8ead9f6.jpg",
             },
         }
     );
