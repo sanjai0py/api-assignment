@@ -19,8 +19,8 @@ app.use(express.json());
 
 // Rate limiting middleware
 const limiter = rateLimit({
-    windowMs: 15 * 60 * 1000, // 15 minutes
-    limit: 50,
+    windowMs: 60 * 1000, // 1 minute
+    limit: 10,
     standardHeaders: 'draft-7',
     legacyHeaders: false,
     message: 'Too many requests, please try again later.',
