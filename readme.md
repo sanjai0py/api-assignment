@@ -1,9 +1,5 @@
 # API with user registration, user authentication, and rate limiting
 
-## Base URL
-
-https://api-assignment-243c.onrender.com/
-
 
 ## Core Packages
 
